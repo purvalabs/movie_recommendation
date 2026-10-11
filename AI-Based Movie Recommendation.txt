@@ -1,36 +1,32 @@
-# 🎬 **AI-Based Movie Recommendation System**
+AI-Based Movie Recommendation System
 
-## 📌 **1. Introduction**
+1. Introduction
 
 With the rapid growth of digital entertainment platforms, users often face difficulty in selecting movies from a vast collection. A recommendation system helps simplify this process by suggesting relevant content based on user preferences.
 
-This project presents a simple **Artificial Intelligence (AI)-based Movie Recommendation System** that suggests movies according to the user’s **mood** and **preferred language**.
-
----
-
-## 🎯 **2. Objective**
+This project presents a simple **Artificial Intelligence (AI)-based Movie Recommendation System** that suggests movies according to the user’s mood and preferred language.
+<br>
+2. Objective
 
 The main objectives of this project are:
 
-* To develop a system that recommends movies based on user mood
-* To filter recommendations based on language preference
-* To apply basic AI concepts for decision-making
-* To understand the working of recommendation systems
+To develop a system that recommends movies based on user mood
+To filter recommendations based on language preference
+To apply basic AI concepts for decision-making
+To understand the working of recommendation systems
+<br>
+3. Concept of Artificial Intelligence Used
 
----
+This project uses a basic concept of Artificial Intelligence, specifically from **Natural Language Processing (NLP).
 
-## 🧠 **3. Concept of Artificial Intelligence Used**
-
-This project uses a basic concept of **Artificial Intelligence**, specifically from **Natural Language Processing (NLP)**.
-
-### Key Idea:
+Key Idea:
 
 The system tries to understand the *meaning* of the user’s mood instead of just matching exact words.
 
 For example:
 
-* “happy” can relate to “fun” or “joyful”
-* “sad” can relate to “emotional”
+“happy” can relate to “fun” or “joyful”
+“sad” can relate to “emotional”
 
 This is achieved by:
 
@@ -39,62 +35,56 @@ This is achieved by:
 * Comparing user input with stored movie data
 
 This process simulates how AI understands and processes human language.
-
----
-
-## ⚙️ **4. Methodology**
+<br>
+4. Methodology
 
 The system follows these steps:
 
-1. **Data Collection**
+1. Data Collection
    A dataset of movies is created, including:
 
    * Movie title
    * Mood category
    * Language
 
-2. **User Input**
+2. User Input
    The user provides:
 
    * Their current mood
    * Preferred language
 
-3. **Text Processing**
+3. Text Processing
 
    * The input is cleaned and broken into words
    * Similar words are added to improve understanding
 
-4. **Matching Process**
+4. Matching Process
 
    * The system compares user mood with movie mood
    * It calculates similarity based on common words
 
-5. **Recommendation**
+5. Recommendation
 
    * Movies with the highest similarity are suggested
+<br>
+5. System Design
 
----
-
-## 🗂️ **5. System Design**
-
-### Input:
+Input:
 
 * User mood (e.g., happy, sad, exciting)
 * Language preference (Hindi/English)
 
-### Process:
+Process:
 
 * Text processing
 * Word comparison
 * Similarity calculation
 
-### Output:
+Output:
 
 * List of recommended movies
-
----
-
-## 📊 **6. Working Principle**
+<br>
+6. Working Principle
 
 The system works on a simple principle:
 
@@ -109,7 +99,7 @@ This improves recommendation quality and makes the system more intelligent.
 
 ---
 
-## 🚀 **7. Advantages**
+7. Advantages
 
 * Easy to understand and implement
 * Does not require complex tools
@@ -118,7 +108,7 @@ This improves recommendation quality and makes the system more intelligent.
 
 ---
 
-## ⚠️ **8. Limitations**
+8. Limitations
 
 * Limited number of movies in dataset
 * Cannot fully understand complex human emotions
@@ -126,9 +116,7 @@ This improves recommendation quality and makes the system more intelligent.
 * Recommendations depend on predefined keywords
 
 ---
-
-## 🔮 **9. Future Scope**
-
+9. Future Scope
 This project can be improved by:
 
 * Using large real-world movie datasets
@@ -139,7 +127,7 @@ This project can be improved by:
 
 ---
 
-## 🎯 **10. Conclusion**
+10. Conclusion
 
 This project demonstrates how Artificial Intelligence can be used in a simple way to build a recommendation system. By analyzing user mood and language preference, the system provides personalized movie suggestions.
 
